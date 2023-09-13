@@ -1,3 +1,17 @@
 body{
     display:flex;
+    flex-direction:column;
+}
+
+.first-box{
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    display:flex;
+}
+
+.links{
+    display:flex;
 }
