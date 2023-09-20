@@ -6,12 +6,58 @@ body{
 .first-box{
     display:flex;
     flex-direction:column;
+    flex:1;
+    background-color: #1f2937;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-bottom: 2cm;
+    padding-top: 1cm;
+    
+}
+.second-box{
+    display:flex;
+    flex:1;
+}
+.third-box{
+    display:flex;
+    flex:1;
+}
+.fourth-box{
+    display:flex;
+    flex:1;
+}
+.fifth-box{
+    display:flex;
+    flex:1;
 }
 
 .header{
     display:flex;
+    justify-content:center;
+}
+
+.sign-up{
+    display:flex;
+    color:white;
+    justify-content:center;
 }
 
 .links{
     display:flex;
+    flex:1;    
+    gap:15px;
+    justify-content: flex-end;
+}
+
+#logo{
+    flex:1;
+}
+#main-img{
+    display:flex;
+    flex:1; 
+    justify-content: flex-end;   
+}
+
+.main-text{
+    flex:1;
 }
