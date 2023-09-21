@@ -19,22 +19,8 @@ body{
     margin:0;
     
 }
-.second-box{
-    display:flex;
-    flex:1;
-}
-.third-box{
-    display:flex;
-    flex:1;
-}
-.fourth-box{
-    display:flex;
-    flex:1;
-}
-.fifth-box{
-    display:flex;
-    flex:1;
-}
+
+/* Everything below affects the first box */
 
 .header{
     display:flex;
@@ -118,3 +104,47 @@ button{
     padding-right: 20px;
     border-radius: 5px;
 }
+
+.second-box{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-bottom: 2cm;
+    padding-top: 1cm;
+    margin:0;
+    align-items: center;
+}
+
+/* Everything below affects the second box */
+
+.characters{
+    display:flex;
+    flex-direction: column;
+}
+
+.img-row{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-row-text{
+    flex:1;
+    display:flex;
+}
+
+.third-box{
+    display:flex;
+    flex:1;
+}
+.fourth-box{
+    display:flex;
+    flex:1;
+}
+.fifth-box{
+    display:flex;
+    flex:1;
+}
+
