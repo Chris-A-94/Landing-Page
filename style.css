@@ -119,6 +119,12 @@ button{
 
 /* Everything below affects the second box */
 
+.info{
+    color:#1f2937;
+    font-size: 36px;
+    font-weight:1000;
+}
+
 .characters{
     display:flex;
     flex-direction: column;
