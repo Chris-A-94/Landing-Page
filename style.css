@@ -157,10 +157,34 @@ button{
     width: 180px;
 }
 
+/*start of third box*/
+
 .third-box{
     display:flex;
     flex:1;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-left: 6cm;
+    padding-right: 7cm;
+    padding-bottom: 2cm;
+    padding-top: 3cm;
 }
+
+.quote-text{
+    font-size: 30px;
+    font-weight: light;
+    font-style:  italic;    
+    color:#1f2937;
+}
+
+.quoter{
+    align-self: flex-end;
+    color:#1f2937;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-right: 1cm;
+}
+
 .fourth-box{
     display:flex;
     flex:1;
