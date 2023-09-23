@@ -191,10 +191,22 @@ button{
     padding-right: 1cm;
 }
 
+/* Start of the fourth box*/
+
 .fourth-box{
     display:flex;
     flex:1;
+    justify-content: center;
+    padding-top:2cm;
+    padding-bottom:2cm;
 }
+
+.blueBox{
+    background-color: #3882F6;
+    align-self: center;
+    flex:0.75;
+}
+
 .fifth-box{
     display:flex;
     flex:1;
