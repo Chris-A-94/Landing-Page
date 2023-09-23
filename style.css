@@ -205,6 +205,34 @@ button{
     background-color: #3882F6;
     align-self: center;
     flex:0.75;
+    display:flex;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    border-radius: 10px;
+    justify-content:space-around;
+}
+
+.blueText{
+    margin:0.1cm;
+    color:white;
+}
+
+.blueStuff{
+    flex:0.75;    
+}
+
+.blueButton{
+    border: 2px;    
+    border-style: solid;
+    border-color: white;
+    padding:0;
+    align-self: center;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.25cm;
+    padding-bottom: 0.25cm;
 }
 
 .fifth-box{
